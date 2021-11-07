@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  padding: 0px 60px;
+  align-items: center;
+  height: 70px;
+  justify-content: space-between;
+  background: rgb(102, 236, 207);
+  position: fixed;
+  width: 1140px;
+  z-index: 2;
+}
+
+
+
+.router{
+  max-width: 1140px;
+  margin: 0 auto;
+  background: rgb(178, 182, 182);
+
+}
+.addButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 40px;
+  font-weight: 100;
+  color: rgb(214, 212, 212);
+  border: none;
+  background: white;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.addButton:hover::after{
+  bottom: 31px;
+  position: absolute;
+  content: 'AddChat';
+  font-size: 14px;
+  color: grey;
+  padding: 2px;
+  border: 1px solid grey;
+  z-index: 5;
+}
+.Profile-heading{
+  padding-top: 100px;
+  color: black;
+  background: white;
+}
+
+.nav { 
+  text-decoration: none;
+  color: rgb(102, 100, 100);
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+.nav:hover {
+  color: black;
+}
+.chat-link{
+  color: black;
+  border-bottom: 1px solid rgb(214, 212, 212);
+}
+.chat-link:hover{
+  background-color: rgb(214, 212, 212);
+}
